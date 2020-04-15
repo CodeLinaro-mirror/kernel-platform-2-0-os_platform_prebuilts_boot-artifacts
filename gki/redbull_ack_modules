@@ -97,6 +97,7 @@ governor_gpubw_mon.ko
 governor_msm_adreno_tz.ko
 gpi.ko
 gpucc-lito.ko
+hdcp_qseecom.ko
 heap_mem_ext_v01.ko
 iommu-logger.ko
 ion-alloc.ko
@@ -181,6 +182,7 @@ qpnp-revid.ko
 qpnp-smb5-charger.ko
 qrtr.ko
 qrtr-smd.ko
+qseecom.ko
 qtee_shm_bridge.ko
 qti_qmi_sensor.ko
 ramdump.ko
@@ -202,6 +204,7 @@ slg51000-regulator.ko
 slimbus.ko
 slim_msm_ngd.ko
 sm7250_bms.ko
+smcinvoke.ko
 smem.ko
 smem_state.ko
 smp2p.ko
