@@ -100,6 +100,7 @@ gpi.ko
 gpucc-lito.ko
 hdcp_qseecom.ko
 heap_mem_ext_v01.ko
+i2c-qcom-geni.ko
 iommu-logger.ko
 ion-alloc.ko
 lcd.ko
@@ -120,6 +121,7 @@ msm_bus.ko
 msm_bus_rpmh.ko
 msm_dma_iommu_mapping.ko
 msm_ext_display.ko
+msm_geni_serial.ko
 msm_gsi.ko
 msm_hdcp.ko
 msm_icnss.ko
@@ -160,6 +162,7 @@ qce50.ko
 qcedev-module.ko
 qcom-cpufreq-hw.ko
 qcom_edac.ko
+qcom-geni-se.ko
 qcom_glink_native.ko
 qcom_glink_smem.ko
 qcom_glink_spss.ko
@@ -216,6 +219,7 @@ snd_event_dlkm.ko
 snd-soc-codec-misc.ko
 snd-soc-rl6231.ko
 snd-soc-rt5514-qmi.ko
+spi-geni-qcom.ko
 st21nfc.ko
 st54j_se.ko
 subsys-pil-tz.ko
