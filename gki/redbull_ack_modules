@@ -5,6 +5,7 @@ adsprpc.ko
 apr_dlkm.ko
 arm-smmu-debug.ko
 arm-smmu.ko
+at24.ko
 bcl_pmic5.ko
 bcl_soc.ko
 cam_a5.ko
@@ -132,6 +133,7 @@ msm_scm.ko
 msm_sharedmem.ko
 msm_sps.ko
 npucc-lito.ko
+nvmem_qfprom.ko
 of_batterydata.ko
 of_slimbus.ko
 overheat_mitigation.ko
@@ -150,6 +152,7 @@ pinctrl-msm.ko
 pinctrl-spmi-gpio.ko
 pinctrl-spmi-mpp.ko
 pmic-voter.ko
+pwm-qti-lpg.ko
 q6_dlkm.ko
 q6_notifier_dlkm.ko
 q6_pdr_dlkm.ko
