@@ -68,6 +68,7 @@ cmd-db.ko
 cnss_prealloc.ko
 cnss_utils.ko
 core_hang_detect.ko
+cpu_isolate.ko
 dcc_v2.ko
 ddr_stats.ko
 debugcc-lito.ko
@@ -76,6 +77,7 @@ devfreq_qcom_fw.ko
 dispcc-lito.ko
 drv2624.ko
 dwc3-haps.ko
+dwc3.ko
 dwc3-of-simple.ko
 dwc3-qcom.ko
 early_random.ko
@@ -91,6 +93,7 @@ glink_pkt.ko
 glink_probe.ko
 google-battery.ko
 google-bms.ko
+google_charger.ko
 google_wlan_mac.ko
 governor_bw_vbif.ko
 governor_cdsp_l3.ko
@@ -100,6 +103,7 @@ gpi.ko
 gpucc-lito.ko
 hdcp_qseecom.ko
 heap_mem_ext_v01.ko
+heatmap.ko
 i2c-qcom-geni.ko
 iommu-logger.ko
 ion-alloc.ko
@@ -117,6 +121,7 @@ memory_dump_v2.ko
 microdump_collector.ko
 minidump_log.ko
 modemsmem.ko
+msm_adreno.ko
 msm_bus.ko
 msm_bus_rpmh.ko
 msm_dma_iommu_mapping.ko
@@ -126,6 +131,7 @@ msm_gsi.ko
 msm_hdcp.ko
 msm_icnss.ko
 msm_ipc_logging.ko
+msm_lmh_dcvs.ko
 msm_memshare.ko
 msm_minidump.ko
 msm_npu.ko
@@ -134,6 +140,7 @@ msm_rng.ko
 msm_scm.ko
 msm_sharedmem.ko
 msm_sps.ko
+msm-vidc.ko
 npucc-lito.ko
 nvmem_qfprom.ko
 of_batterydata.ko
@@ -142,6 +149,9 @@ overheat_mitigation.ko
 p9221_charger.ko
 pac193x.ko
 peripheral-loader.ko
+phy-generic.ko
+phy-msm-snps-hs.ko
+phy-msm-ssusb-qmp.ko
 phy-qcom-ufs.ko
 phy-qcom-ufs-qmp-v3-660.ko
 phy-qcom-ufs-qmp-v3.ko
@@ -175,6 +185,7 @@ qcom_rpmh.ko
 qcom_socinfo.ko
 qcom-spmi-adc5.ko
 qcom-spmi-pmic.ko
+qcom-spmi-sdam.ko
 qcom-spmi-temp-alarm.ko
 qcom-spmi-wled.ko
 qcom-vadc-common.ko
@@ -183,6 +194,8 @@ qmi_cdev.ko
 qmi_helpers.ko
 qpnp-amoled-regulator.ko
 qpnp-battery.ko
+qpnp_pdphy.ko
+qpnp-power-on.ko
 qpnp-qgauge.ko
 qpnp-revid.ko
 qpnp-smb5-charger.ko
@@ -230,11 +243,14 @@ tcpm.ko
 thermal-tsens.ko
 touchscreen_tbn.ko
 tps-regulator.ko
+usb-dwc3-msm.ko
 usb_f_ccid.ko
 usb_f_cdev.ko
 usb_f_diag.ko
 usb_f_mtp.ko
 usb_f_ptp.ko
+usb_f_qdss.ko
+usf_dlkm.ko
 vd6281_module.ko
 videocc-lito.ko
 virt-dma.ko
