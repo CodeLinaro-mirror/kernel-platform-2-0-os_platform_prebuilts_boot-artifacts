@@ -8,6 +8,8 @@ arm-smmu.ko
 at24.ko
 bcl_pmic5.ko
 bcl_soc.ko
+bluetooth_power.ko
+bolero_cdc_dlkm.ko
 cam_a5.ko
 cam_actuator.ko
 cam_bps.ko
@@ -102,6 +104,7 @@ governor_msm_adreno_tz.ko
 gpi.ko
 gpucc-lito.ko
 hdcp_qseecom.ko
+hdmi_dlkm.ko
 heap_mem_ext_v01.ko
 heatmap.ko
 i2c-qcom-geni.ko
@@ -116,6 +119,8 @@ lmh_cpu_vdd_cdev.ko
 lmh_dbg.ko
 logbuffer.ko
 lpm-stats.ko
+machine_dlkm.ko
+mbhc_dlkm.ko
 mdt_loader.ko
 memory_dump_v2.ko
 microdump_collector.ko
@@ -125,6 +130,7 @@ msm_adreno.ko
 msm_bus.ko
 msm_bus_rpmh.ko
 msm_dma_iommu_mapping.ko
+msm_drm.ko
 msm_ext_display.ko
 msm_geni_serial.ko
 msm_gsi.ko
@@ -141,6 +147,7 @@ msm_scm.ko
 msm_sharedmem.ko
 msm_sps.ko
 msm-vidc.ko
+native_dlkm.ko
 npucc-lito.ko
 nvmem_qfprom.ko
 of_batterydata.ko
@@ -163,6 +170,7 @@ pinctrl_lpi_dlkm.ko
 pinctrl-msm.ko
 pinctrl-spmi-gpio.ko
 pinctrl-spmi-mpp.ko
+platform_dlkm.ko
 pmic-voter.ko
 pwm-qti-lpg.ko
 q6_dlkm.ko
@@ -230,11 +238,17 @@ smp2p.ko
 smp2p_sleepstate.ko
 snd_event_dlkm.ko
 snd-soc-codec-misc.ko
+snd-soc-cs35l41-i2c.ko
+snd-soc-cs35l41.ko
 snd-soc-rl6231.ko
+snd-soc-rt5514.ko
 snd-soc-rt5514-qmi.ko
+snd-soc-rt5514-spi.ko
+snd-soc-wm-adsp.ko
 spi-geni-qcom.ko
 st21nfc.ko
 st54j_se.ko
+stub_dlkm.ko
 subsys-pil-tz.ko
 subsystem_notif.ko
 subsystem-restart.ko
@@ -255,6 +269,10 @@ vd6281_module.ko
 videocc-lito.ko
 virt-dma.ko
 watchdog_v2.ko
+wcd937x_dlkm.ko
 wcd937x_slave_dlkm.ko
+wcd938x_dlkm.ko
 wcd938x_slave_dlkm.ko
+wcd9xxx_dlkm.ko
 wcd_core_dlkm.ko
+wsa881x_dlkm.ko
