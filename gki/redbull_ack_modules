@@ -225,6 +225,7 @@ swr_dlkm.ko
 tcpm.ko
 thermal-tsens.ko
 touchscreen_tbn.ko
+tps-regulator.ko
 usb_f_ccid.ko
 usb_f_cdev.ko
 usb_f_diag.ko
