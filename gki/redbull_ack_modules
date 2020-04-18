@@ -246,6 +246,7 @@ snd-soc-rt5514-qmi.ko
 snd-soc-rt5514-spi.ko
 snd-soc-wm-adsp.ko
 spi-geni-qcom.ko
+spmi-pmic-arb.ko
 st21nfc.ko
 st54j_se.ko
 stub_dlkm.ko
